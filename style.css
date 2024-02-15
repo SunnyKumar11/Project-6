@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.nav{
+    background-color: #2B2922;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+}
+.logo{
+    height: 50px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-size: 18px;
+    color: rgb(156, 148, 148);
+}
+.white{
+    color: beige;
+    font-weight: 600;
+}
+.btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:solid 1px;
+    border-color: yellow;
+    color: yellow;
+    background-color: #2B2922;
+}
+/* Hero Section */
+.content{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 50px 140px;
+    background-color: #2B2922;
+}
+.left>h2{
+    font-size: 60px;
+    color: white;
+    font-weight: 800;
+}
+.right>p{
+    font-size: 18px;
+    color: rgb(156, 148, 148);
+}
+
+.img>img{
+    height: 270px;
+    width: 100vw;
+
+}
